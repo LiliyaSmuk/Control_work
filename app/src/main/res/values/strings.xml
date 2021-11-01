@@ -1,0 +1,220 @@
+<resources>
+    <string name="app_name">Тест на переутомление</string>
+    <string name="title">Переутомление</string>
+    <string name="title1">(Ортостотическая проба)</string>
+    <string name="description">Для прохождения теста необходимо иметь возможность лечь на 5 минут.Время проведения теста около 10–15 минут.</string>
+    <string name="age">Укажите день Вашего рождения и Ваш пол: </string>
+    <string name="one">1. Необходимо лечь и лежать 5 минут почти без движений.</string>
+    <string name="two">2. Посчитать пульс в течении минуты.</string>
+    <string name="three">3. Введите пульс в положении лёжа: </string>
+    <string name="fore">4. Встать и стоять без движений почти 5 минут.</string>
+    <string name="five">5. Посчитать пульс в течении минуты.</string>
+    <string name="six">6. Введите пуль в положении стоя:</string>
+    <string name="seven">7. Нажмите (Ввод). Тест завершён!</string>
+    <string name="button">Ввод</string>
+    <string name="test">Тест</string>
+
+    <string name="title2">Результаты теста</string>
+    <string name="description2">Не забывайте о регулярном профессиональном медицинском осмотре!</string>
+    <string name="advice">Введённые значения соответствуют отсутствию переутомления!</string>
+
+
+    <string name='first1'>1 </string>
+    <string name='first2'>2</string>
+    <string name='first3'>3</string>
+    <string name='first4'>4</string>
+    <string name='first5'>5 </string>
+    <string name='first6'>6 </string>
+    <string name='first7'>7 </string>
+    <string name='first8'>8 </string>
+    <string name='first9'>9 </string>
+    <string name='second0'>10 </string>
+    <string name='second1'>11 </string>
+    <string name='second2'>12 </string>
+    <string name='second3'>13 </string>
+    <string name='second4'>14 </string>
+    <string name='second5'>15 </string>
+    <string name='second6'>16 </string>
+    <string name='second7'>17</string>
+    <string name='second8'>18 </string>
+    <string name='second9'>19 </string>
+    <string name='third0'>20 </string>
+    <string name='third1'>21 </string>
+    <string name='third2'>22 </string>
+    <string name='third3'>23 </string>
+    <string name='third4'>24 </string>
+    <string name='third5'>25 </string>
+    <string name='third6'>26 </string>
+    <string name='third7'>27 </string>
+    <string name='third8'>28 </string>
+    <string name='third9'>29 </string>
+    <string name='fourth0'>30 </string>
+    <string name='fourth1'>31 </string>
+
+    <string name='Jan'>Январь </string>
+    <string name='Feb'>Февраль </string>
+    <string name='Mar'>Март </string>
+    <string name='Apr'>Апрель </string>
+    <string name='May'>Май </string>
+    <string name='Jun'>Июнь </string>
+    <string name='Jul'>Июль </string>
+    <string name='Aug'>Август </string>
+    <string name='Sep'>Сентябрь </string>
+    <string name='Oct'>Октябрь </string>
+    <string name='Nov'>Ноябрь </string>
+    <string name='Dec'>Декабрь </string>
+
+    <string name='t'>1970 </string>
+    <string name='t1'>1971 </string>
+    <string name='t2'>1972 </string>
+    <string name='t3'>1973 </string>
+    <string name='t4'>1974 </string>
+    <string name='t5'>1975 </string>
+    <string name='t6'>1976 </string>
+    <string name='t7'>1977 </string>
+    <string name='t8'>1978 </string>
+    <string name='t9'>1979 </string>
+    <string name='r'>1980 </string>
+    <string name='r1'>1981</string>
+    <string name='r2'>1982</string>
+    <string name='r3'>1983</string>
+    <string name='r4'>1984 </string>
+    <string name='r5'>1985 </string>
+    <string name='r6'>1986 </string>
+    <string name='r7'>1987 </string>
+    <string name='r8'>1988 </string>
+    <string name='r9'>1989 </string>
+    <string name='e'>1990 </string>
+    <string name='e1'>1991 </string>
+    <string name='e2'>1992 </string>
+    <string name='e3'>1993 </string>
+    <string name='e4'>1994 </string>
+    <string name='e5'>1995 </string>
+    <string name='e6'>1996</string>
+    <string name='e7'>1997 </string>
+    <string name='e8'>1998 </string>
+    <string name='e9'>1999 </string>
+    <string name='w'>2000 </string>
+    <string name='w1'>2001 </string>
+    <string name='w2'>2002 </string>
+    <string name='w3'>2003 </string>
+    <string name='w4'>2004 </string>
+    <string name='w5'>2005 </string>
+    <string name='w6'>2006 </string>
+    <string name='w7'>2007 </string>
+    <string name='w8'>2008 </string>
+    <string name='w9'>2009 </string>
+    <string name='q'>2010 </string>
+    <string name='q1'>2011 </string>
+    <string name='q2'>2012 </string>
+    <string name='q3'>2013 </string>
+    <string name='q4'>2014 </string>
+    <string name='q5'>2015 </string>
+
+    <string name='M'>М </string>
+    <string name='W'>Ж </string>
+
+    <string-array name='list'>
+        <item>@string/first1</item>
+        <item>@string/first2</item>
+        <item>@string/first3</item>
+        <item>@string/first4</item>
+        <item>@string/first5</item>
+        <item>@string/first6</item>
+        <item>@string/first7</item>
+        <item>@string/first8</item>
+        <item>@string/first9</item>
+        <item>@string/second0</item>
+        <item>@string/second1</item>
+        <item>@string/second2</item>
+        <item>@string/second3</item>
+        <item>@string/second4</item>
+        <item>@string/second5</item>
+        <item>@string/second6</item>
+        <item>@string/second7</item>
+        <item>@string/second8</item>
+        <item>@string/second9</item>
+        <item>@string/third0</item>
+        <item>@string/third1</item>
+        <item>@string/third2</item>
+        <item>@string/third3</item>
+        <item>@string/third4</item>
+        <item>@string/third5</item>
+        <item>@string/third6</item>
+        <item>@string/third7</item>
+        <item>@string/third8</item>
+        <item>@string/third9</item>
+        <item>@string/fourth0</item>
+        <item>@string/fourth1</item>
+    </string-array>
+
+    <string-array name="months">
+        <item>@string/Jan</item>
+        <item>@string/Feb</item>
+        <item>@string/Mar</item>
+        <item>@string/Apr</item>
+        <item>@string/May</item>
+        <item>@string/Jun</item>
+        <item>@string/Jul</item>
+        <item>@string/Aug</item>
+        <item>@string/Sep</item>
+        <item>@string/Oct</item>
+        <item>@string/Nov</item>
+        <item>@string/Dec</item>
+    </string-array>
+
+    <string-array name='years'>
+        <item>@string/t</item>
+        <item>@string/t1</item>
+        <item>@string/t2</item>
+        <item>@string/t3</item>
+        <item>@string/t4</item>
+        <item>@string/t5</item>
+        <item>@string/t6</item>
+        <item>@string/t7</item>
+        <item>@string/t8</item>
+        <item>@string/t9</item>
+        <item>@string/r</item>
+        <item>@string/r1</item>
+        <item>@string/r2</item>
+        <item>@string/r3</item>
+        <item>@string/r4</item>
+        <item>@string/r5</item>
+        <item>@string/r6</item>
+        <item>@string/r7</item>
+        <item>@string/r8</item>
+        <item>@string/r9</item>
+        <item>@string/e</item>
+        <item>@string/e1</item>
+        <item>@string/e2</item>
+        <item>@string/e3</item>
+        <item>@string/e4</item>
+        <item>@string/e5</item>
+        <item>@string/e6</item>
+        <item>@string/e7</item>
+        <item>@string/e8</item>
+        <item>@string/e9</item>
+        <item>@string/w</item>
+        <item>@string/w1</item>
+        <item>@string/w2</item>
+        <item>@string/w3</item>
+        <item>@string/w4</item>
+        <item>@string/w5</item>
+        <item>@string/w6</item>
+        <item>@string/w7</item>
+        <item>@string/w8</item>
+        <item>@string/w9</item>
+        <item>@string/q</item>
+        <item>@string/q1</item>
+        <item>@string/q2</item>
+        <item>@string/q3</item>
+        <item>@string/q4</item>
+        <item>@string/q5</item>
+    </string-array>
+
+    <string-array name='sex'>
+        <item>@string/M</item>
+        <item>@string/W</item>
+    </string-array>
+
+</resources>
