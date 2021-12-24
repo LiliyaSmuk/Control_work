@@ -8,8 +8,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="8dp"
         android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
         android:orientation="vertical">
 
 
@@ -41,13 +41,13 @@
                 android:src="@drawable/warning" />
 
             <TextView
+                style="@style/text"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="center_vertical"
-                android:textSize="16sp"
                 android:layout_marginLeft="24dp"
+                android:gravity="center_vertical"
                 android:text="@string/description"
-                style="@style/text"/>
+                android:textSize="16sp" />
         </LinearLayout>
 
         <TextView
@@ -55,18 +55,18 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
             android:gravity="center"
-            android:textColor="#FF9416"
             android:text="@string/test"
+            android:textColor="#FF9416"
             android:textSize="20sp" />
 
         <TextView
+            style="@style/text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
             android:gravity="left"
             android:text="@string/age"
-            android:layout_marginBottom="4dp"
-            tools:ignore="RtlHardcoded"
-            style="@style/text"/>
+            tools:ignore="RtlHardcoded" />
 
 
         <LinearLayout
@@ -93,21 +93,21 @@
             <Spinner
                 android:layout_width="95dp"
                 android:layout_height="wrap_content"
-                android:entries="@array/sex"/>
+                android:entries="@array/sex" />
         </LinearLayout>
 
         <TextView
+            style="@style/text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
-            android:text="@string/one"
-            style="@style/text" />
+            android:text="@string/one" />
 
         <TextView
+            style="@style/text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/two"
-            style="@style/text"/>
+            android:text="@string/two" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -115,51 +115,53 @@
             android:orientation="horizontal">
 
             <TextView
+                style="@style/text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/three"
-                style="@style/text"/>
+                android:text="@string/three" />
 
             <EditText
-                android:layout_width="50dp"
-                android:layout_height="45dp"/>
-        </LinearLayout>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="4dp"
-            android:text="@string/fore"
-            style="@style/text"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/five"
-            style="@style/text"/>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/six"
-                style="@style/text"/>
-
-            <EditText
+                android:id="@+id/value_1"
                 android:layout_width="50dp"
                 android:layout_height="45dp" />
         </LinearLayout>
 
         <TextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="@string/fore" />
+
+        <TextView
+            style="@style/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/five" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/six" />
+
+            <EditText
+                android:id="@+id/value_2"
+                android:layout_width="50dp"
+                android:layout_height="45dp" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:text="@string/seven"
-            style="@style/text"/>
+            android:text="@string/seven" />
 
         <ImageView
             android:layout_width="80dp"
@@ -167,13 +169,27 @@
             android:layout_marginBottom="6dp"
             android:src="@drawable/stopwatch" />
 
-        <Button
-            android:id="@+id/next_Btn"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button"
-            android:textSize="20sp" />
+            android:gravity="center"
+            android:orientation="horizontal">
 
+            <Button
+                android:id="@+id/write_Btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="@string/write_button"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/next_Btn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/button"
+                android:textSize="20sp" />
+        </LinearLayout>
 
     </LinearLayout>
 

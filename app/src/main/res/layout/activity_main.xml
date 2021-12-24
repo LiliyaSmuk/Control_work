@@ -122,6 +122,7 @@
                 style="@style/text"/>
 
             <EditText
+                android:id="@+id/value_1"
                 android:layout_width="50dp"
                 android:layout_height="50dp"/>
         </LinearLayout>
@@ -152,6 +153,7 @@
                 style="@style/text"/>
 
             <EditText
+                android:id="@+id/value_2"
                 android:layout_width="50dp"
                 android:layout_height="50dp" />
         </LinearLayout>
@@ -169,12 +171,27 @@
             android:layout_marginBottom="20dp"
             android:src="@drawable/stopwatch" />
 
-        <Button
-            android:id="@+id/next_Btn"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/button"
-            android:textSize="20sp" />
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/write_Btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="@string/write_button"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/next_Btn"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/button"
+                android:textSize="20sp" />
+        </LinearLayout>
 
 
     </LinearLayout>

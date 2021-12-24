@@ -12,6 +12,7 @@
     <string name="six">6. Введите пуль в положении стоя:</string>
     <string name="seven">7. Нажмите (Ввод). Тест завершён!</string>
     <string name="button">Ввод</string>
+    <string name="write_button">Записать</string>
     <string name="test">Тест</string>
 
     <string name="title2">Результаты теста</string>
